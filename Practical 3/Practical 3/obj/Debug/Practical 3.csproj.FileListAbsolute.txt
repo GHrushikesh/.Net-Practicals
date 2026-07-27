@@ -1,0 +1,7 @@
+A:\.Net Practicals\Practical 3\Practical 3\obj\Debug\Practical 3.csproj.AssemblyReference.cache
+A:\.Net Practicals\Practical 3\Practical 3\obj\Debug\Practical 3.csproj.CoreCompileInputs.cache
+A:\.Net Practicals\Practical 3\Practical 3\bin\Debug\Practical 3.exe.config
+A:\.Net Practicals\Practical 3\Practical 3\bin\Debug\Practical 3.exe
+A:\.Net Practicals\Practical 3\Practical 3\bin\Debug\Practical 3.pdb
+A:\.Net Practicals\Practical 3\Practical 3\obj\Debug\Practical 3.exe
+A:\.Net Practicals\Practical 3\Practical 3\obj\Debug\Practical 3.pdb
