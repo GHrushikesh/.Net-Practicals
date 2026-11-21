@@ -1,0 +1,55 @@
+@model StudentCourseRegistration.Models.Student
+
+@{
+    ViewData["Title"] = "Student Details";
+}
+
+<div class="row justify-content-center py-3">
+    <div class="col-lg-6 col-md-8">
+        <div class="apple-card p-4 p-md-5">
+            <div class="d-flex justify-content-between align-items-center mb-4 pb-3 border-bottom">
+                <div>
+                    <h3 class="h4 fw-semibold text-dark mb-0">Student Profile</h3>
+                    <p class="text-muted small mb-0">Verified registration record</p>
+                </div>
+                <span class="apple-pill">ID #@Model.Id</span>
+            </div>
+
+            <div class="py-2">
+                <div class="d-flex justify-content-between py-2 border-bottom">
+                    <span class="text-muted small">Student ID</span>
+                    <span class="fw-medium text-dark">#@Model.Id</span>
+                </div>
+                <div class="d-flex justify-content-between py-2 border-bottom">
+                    <span class="text-muted small">Full Name</span>
+                    <span class="fw-medium text-dark">@Model.Name</span>
+                </div>
+                <div class="d-flex justify-content-between py-2 border-bottom">
+                    <span class="text-muted small">Email Address</span>
+                    <span class="fw-medium text-dark">@Model.Email</span>
+                </div>
+                <div class="d-flex justify-content-between py-2 border-bottom">
+                    <span class="text-muted small">Course / Program</span>
+                    <span class="apple-pill">@Model.Course</span>
+                </div>
+                <div class="d-flex justify-content-between py-2 border-bottom">
+                    <span class="text-muted small">Current Semester</span>
+                    <span class="apple-pill apple-pill-blue">Semester @Model.Semester</span>
+                </div>
+                <div class="d-flex justify-content-between py-2">
+                    <span class="text-muted small">Enrollment Status</span>
+                    <span class="apple-pill apple-pill-success">Active</span>
+                </div>
+            </div>
+
+            <div class="d-flex justify-content-between align-items-center pt-4 mt-3 border-top">
+                <a asp-action="Index" class="btn-apple-secondary">
+                    &larr; Back to Directory
+                </a>
+                <a asp-action="Create" class="btn-apple-primary">
+                    + Register Another
+                </a>
+            </div>
+        </div>
+    </div>
+</div>

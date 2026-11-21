@@ -1,0 +1,76 @@
+@{
+    ViewData["Title"] = "Overview";
+}
+
+<div class="text-center py-5 my-3">
+    <div class="text-uppercase small fw-semibold text-muted mb-2" style="letter-spacing: 0.08em; font-size: 12px;">
+        Marwadi University &middot; Department of Computer Engineering
+    </div>
+    <h1 class="display-5 fw-semibold mb-3 text-dark" style="letter-spacing: -0.025em;">
+        Student Course Registration
+    </h1>
+    <p class="text-muted fs-5 mx-auto mb-4" style="max-width: 580px; line-height: 1.5;">
+        A simplified portal for managing student course enrollments, viewing academic rosters, and enforcing data validation rules.
+    </p>
+    <div class="d-flex justify-content-center gap-3">
+        <a asp-controller="Student" asp-action="Create" class="btn-apple-primary">
+            Register Student
+        </a>
+        <a asp-controller="Student" asp-action="Index" class="btn-apple-secondary">
+            View Directory
+        </a>
+    </div>
+</div>
+
+<div class="row g-4 my-4">
+    <div class="col-md-4">
+        <div class="apple-card apple-card-interactive p-4 h-100 d-flex flex-column justify-content-between">
+            <div>
+                <span class="apple-pill mb-3">Module 01</span>
+                <h5 class="fw-semibold mt-2 mb-2">Registration</h5>
+                <p class="text-muted small mb-0">
+                    Register students with structured validation on full name, university email, course selection, and semester range.
+                </p>
+            </div>
+            <div class="mt-4 pt-2 border-top">
+                <a asp-controller="Student" asp-action="Create" class="btn-apple-link">
+                    Open form &rsaquo;
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-4">
+        <div class="apple-card apple-card-interactive p-4 h-100 d-flex flex-column justify-content-between">
+            <div>
+                <span class="apple-pill mb-3">Module 02</span>
+                <h5 class="fw-semibold mt-2 mb-2">Student Directory</h5>
+                <p class="text-muted small mb-0">
+                    Access the complete directory of enrolled students. Review academic programs, active terms, and entry records.
+                </p>
+            </div>
+            <div class="mt-4 pt-2 border-top">
+                <a asp-controller="Student" asp-action="Index" class="btn-apple-link">
+                    Browse list &rsaquo;
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-4">
+        <div class="apple-card apple-card-interactive p-4 h-100 d-flex flex-column justify-content-between">
+            <div>
+                <span class="apple-pill mb-3">Module 03</span>
+                <h5 class="fw-semibold mt-2 mb-2">Student Details</h5>
+                <p class="text-muted small mb-0">
+                    Inspect individual student records, verify active enrollment status, and confirm semester registration information.
+                </p>
+            </div>
+            <div class="mt-4 pt-2 border-top">
+                <a asp-controller="Student" asp-action="Details" asp-route-id="1" class="btn-apple-link">
+                    View profile &rsaquo;
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
