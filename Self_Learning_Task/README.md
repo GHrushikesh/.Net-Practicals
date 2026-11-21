@@ -237,4 +237,4 @@ namespace StudentCourseRegistration.Controllers
 ## Conclusion
 The Student Course Registration System was successfully developed and tested. All technical requirements, model validations, controller actions, and views are fully functional.
 
-**Github URL:( https://github.com/GHrushikesh/.Net-Practicals/tree/main/Self_Learning_Activity )**
+**Github URL:( https://github.com/GHrushikesh/.Net-Practicals/tree/main/Self_Learning_Task )**
